@@ -1,4 +1,5 @@
 import harvardFart from "./data/harvardArt";
+import GalleryNavigation from "./components/GalleryNavigation/galleryNavigation";
 
 const harvardArt = harvardFart
 
