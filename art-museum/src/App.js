@@ -1,12 +1,15 @@
-import harvardFart from "./data/harvardArt";
-import GalleryNavigation from "./components/GalleryNavigation/galleryNavigation";
-
-const harvardArt = harvardFart
+import React from 'react';
+import GalleryNavigation from './components/GalleryNavigation/GalleryNavigation';
+import harvardArt from './data/harvardArt'; // Corrected import path
 
 function App() {
   return (
-    <h1>Hello from App</h1>
+    <div className="app">
+      <GalleryNavigation galleries={harvardArt.records} />
+      {/* Other components and content */}
+    </div>
   );
 }
 
 export default App;
+
